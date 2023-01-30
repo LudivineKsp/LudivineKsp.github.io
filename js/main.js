@@ -79,18 +79,18 @@ tabs.forEach(tab =>{
 
 // import Swiper from 'swiper/swiper-bundle.esm.js';
 // import 'swiper/swiper-bundle.css';
-let swiper = new Swiper('.portfolio__container', {
-  cssMode: true,
-  loop: true,
+// let swiper = new Swiper('.portfolio__container', {
+//   cssMode: true,
+//   loop: true,
 
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  mousewheel: true,
-  keyboard: true,
-});
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+//   pagination: {
+//     el: '.swiper-pagination',
+//     clickable: true,
+//   },
+//   mousewheel: true,
+//   keyboard: true,
+// });
