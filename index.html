@@ -20,7 +20,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link"> 
+                        <a href="#home" class="nav__link active-link"> 
                             <i class="uil uil-estate nav__icon"></i> Home
                         </a>
                     </li>
@@ -34,14 +34,19 @@
                             <i class="uil uil-file-alt nav__icon"></i> Skills
                         </a>
                     </li>
-                    <li class="nav__item">
+                    <!-- <li class="nav__item">
                         <a href="#portfolio" class="nav__link">
                             <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="uil uil-book-open nav__icon"></i> Qualification
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i> ContactMe
+                            <i class="uil uil-message nav__icon"></i> Contact Me
                         </a>
                     </li>
                 </ul>
@@ -49,6 +54,9 @@
             </div>
 
             <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
@@ -310,7 +318,7 @@
 
         <!-- ============= QUALIFICATION =============== -->
 
-        <section class="qualification section">
+        <section class="qualification section" id="qualification">
             <h2 class="section__title">Qualification</h2>
             <span class="section__subtitle">My personal journey</span>
 
@@ -611,16 +619,51 @@
                                 <i class="uil uil-message button__icon"></i>
                                 </a>
                             </div>
-                        </form>
-                    
+                        </form>  
                 </div>
             </div>
         </section>
     </main>
+
     <!-- ============= FOOTER =============== -->
 
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Ludivine</h1>
+                        <span class="footer__subtitle">Web Developper</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#skills" class="footer__link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#qualification" class="footer__link">Qualification</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.instagram.com/ludivineksp/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
 
     <!-- ============= SCROLL TOP =============== -->
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+    <!-- ============= DARK LIGHT THEME =============== -->
 
 
     <!-- ============= SWIPER JS =============== -->
